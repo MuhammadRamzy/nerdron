@@ -30,11 +30,18 @@ class NeuralNetwork:
 
             # Backpropagation
             deltas = [None] * len(self.layers)
+            
+            # Calculate delta for the output layer
             deltas[-1] = outputs - y
+            
+            # Backpropagate through the layers
             for i in reversed(range(len(self.layers) - 1)):
+                # Reshape the delta to be the correct shape
                 deltas[i] = np.dot(deltas[i + 1], self.layers[i + 1].weights.T) * self.layers[i].activation(self.layers[i].input, derivative=True)
 
             # Update weights and biases
             for i, layer in enumerate(self.layers):
+                # Ensure the input is reshaped properly for the weight update
                 layer.weights -= self.learning_rate * np.dot(layer.input.T, deltas[i])
                 layer.biases -= self.learning_rate * np.sum(deltas[i], axis=0)
+
