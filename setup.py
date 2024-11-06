@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='nerdron',
-    version='0.2.0',  # Version of your package
+    version='0.3.0',  # Version of your package
     description='A simple and flexible neural network package',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
