@@ -72,12 +72,8 @@ This module defines the `Layer` class, which represents a single layer in the ne
 This module defines the `NeuralNetwork` class, which represents the entire neural network. It handles the forward propagation, backpropagation, and updating of the weights and biases.
 
 ## Contribution
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/neural-network-package).
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/MuhammadRamzy/nerdron).
 ```
-
-The `requirements.txt` file specifies that the package requires the `numpy` library version 1.19.2 or higher.
-
-The `README.md` file provides a detailed overview of the neural network package, including its features, installation instructions, usage examples, and a breakdown of the package modules. This file is intended to serve as the main documentation for the package, helping users understand its capabilities and how to integrate it into their projects.
 
 > [!NOTE]  
 > Under Development.
