@@ -73,7 +73,6 @@ This module defines the `NeuralNetwork` class, which represents the entire neura
 
 ## Contribution
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/MuhammadRamzy/nerdron).
-```
 
 > [!NOTE]  
 > Under Development.
