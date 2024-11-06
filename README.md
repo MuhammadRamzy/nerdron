@@ -1,4 +1,4 @@
-# Neural Network Package
+# Nerdron
 
 This is a Python package that provides a simple and flexible neural network implementation, with support for customizable layer configurations, activation functions, and training parameters.
 
@@ -12,8 +12,10 @@ This is a Python package that provides a simple and flexible neural network impl
 To install the neural network package, you can use pip:
 
 ```
-pip install neural-network-package
+pip install nerdron
 ```
+> [!NOTE]  
+> hold on lemme first publish.
 
 ## Usage
 
