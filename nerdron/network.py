@@ -1,5 +1,6 @@
 import numpy as np
 from typing import Callable, Tuple
+from nerdron.activation import Activation
 
 class NeuralNetwork:
     """

@@ -12,10 +12,8 @@ This is a Python package that provides a simple and flexible neural network impl
 To install the neural network package, you can use pip:
 
 ```
-pip install nerdron
+pip install nerdron==0.2.0
 ```
-> [!NOTE]  
-> hold on lemme first publish.
 
 ## Usage
 
@@ -75,4 +73,4 @@ This module defines the `NeuralNetwork` class, which represents the entire neura
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/MuhammadRamzy/nerdron).
 
 > [!NOTE]  
-> Under Development.
+> Under Development.    
