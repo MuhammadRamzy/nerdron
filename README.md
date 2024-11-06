@@ -12,7 +12,7 @@ This is a Python package that provides a simple and flexible neural network impl
 To install the neural network package, you can use pip:
 
 ```
-pip install nerdron==0.3.1
+pip install nerdron==0.3.2
 ```
 
 ## Usage
