@@ -29,7 +29,7 @@ To create a neural network, you can use the `NeuralNetwork` class. The construct
 
 Example:
 ```python
-from neural_network import NeuralNetwork, Activation
+from nerdron import NeuralNetwork, Activation
 
 # Create a neural network with 2 input neurons, 2 hidden neurons, and 1 output neuron
 nn = NeuralNetwork(layers=(2, 2, 1), activation=Activation.SIGMOID, learning_rate=0.1, epochs=1000)
